@@ -1,0 +1,19 @@
+.assignments-item {
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  height: 10vh;
+  border-radius: 15px;
+}
+
+.assignments-item h4 {
+  margin-top: 10px;
+}
+
+.assignments-item p {
+  margin-top: 15px;
+}
+
+.assignments-item h2 {
+  margin-top: 10px;
+  color: #49006b;
+}

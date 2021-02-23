@@ -1,0 +1,13 @@
+.marks-box {
+  display: flex;
+  box-shadow: 1px 1px 10px rgb(214, 210, 210);
+  padding: 20px;
+  width: 25vw;
+  border-radius: 15px;
+  margin: 20px 40px;
+  background-color: white;
+}
+.marks-box h1 {
+  font-size: 65px;
+  color: rgb(146, 63, 206);
+}

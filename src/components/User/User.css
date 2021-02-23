@@ -1,0 +1,12 @@
+.user h6 {
+  margin-top: 6.2vh;
+}
+.user img {
+  width: 41px;
+  height: 41px;
+  left: 1275px;
+  top: 45px;
+  float: right;
+  margin: 5vh 20px;
+  border-radius: 20px;
+}

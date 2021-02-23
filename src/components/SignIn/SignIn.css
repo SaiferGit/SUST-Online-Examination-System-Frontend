@@ -1,0 +1,60 @@
+.main-button {
+  background-color: #49006b;
+  color: white;
+  padding: 7px 20px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  width: 140px;
+  height: 50px;
+  font-size: 18px;
+}
+.main-button:focus {
+  border: none;
+  outline: none;
+}
+.active {
+  background-color: #49006b;
+  color: white;
+  padding: 8px 40px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+}
+.active:focus {
+  border: none;
+  outline: none;
+}
+
+.without-active {
+  background-color: rgb(235, 230, 230);
+  color: #49006b;
+  padding: 5px 40px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+}
+.without-active:focus {
+  border: none;
+  outline: none;
+}
+
+.font-color {
+  color: #49006b;
+}
+
+.signIn {
+  color: #49006b;
+  font-size: 55px;
+  font-weight: bold;
+  margin-top: -2vh;
+}
+
+.inputBox {
+  border-radius: 10px;
+  margin-top: -8px;
+}
+
+.formClass {
+  margin-top: -25px;
+}

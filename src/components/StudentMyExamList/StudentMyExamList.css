@@ -1,0 +1,15 @@
+.main-button {
+  height: 40px;
+  font-size: 15px;
+  width: 8vw;
+}
+
+.feedback-button {
+  background-color: rgb(52, 177, 94);
+  width: 100px;
+}
+
+.tableheader {
+  font-size: large;
+  font-weight: bold;
+}

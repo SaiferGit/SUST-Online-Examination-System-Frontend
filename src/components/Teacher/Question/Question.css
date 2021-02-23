@@ -1,0 +1,66 @@
+.question {
+  box-shadow: 1px 1px 10px rgb(231, 230, 230);
+  padding: 40px;
+  padding-bottom: 0;
+  width: 70vw;
+  border-radius: 14px;
+  background-color: white;
+}
+.marks-input input[type="number"]::-webkit-inner-spin-button,
+.marks-input input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+  cursor: pointer;
+  border-radius: none !important;
+  background: black;
+  color: red;
+}
+
+::-webkit-validation-bubble-arrow {
+  background: #000;
+  border-color: #444;
+  -webkit-box-shadow: 0 0 0 0;
+}
+
+.marks-input input:-webkit-autofill {
+  background: black;
+  color: red;
+}
+
+.marks-input {
+  background-color: #6d3389;
+  width: 180px;
+  height: 50px;
+  color: white;
+  padding: 5px;
+  padding-left: 20px;
+  text-align: center;
+  margin: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.marks-input input {
+  width: 80px;
+  height: 40px;
+  font-size: 30px;
+  background-color: #6d3389;
+  border: none;
+  outline: none;
+  color: white;
+}
+.marks-input input:focus {
+  border: none;
+  outline: none;
+}
+.select-answer-type {
+  border: 2.5px solid purple;
+  padding: 9px 0px;
+  border-radius: 8px;
+}
+.select-answer-type a:hover {
+  text-decoration: none;
+}
+
+::placeholder {
+  color: #c5b4ce;
+}

@@ -1,0 +1,19 @@
+.student-feedback-item{
+    box-shadow: 1px 1px 10px rgb(199, 198, 198);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.student-feedback-item-header{
+    display: flex;
+    margin: 20px 10px;
+}
+.student-feedback-item-header h4{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.student-feedback-item-header h5{
+    margin-left: 5px;
+    margin-top: 15px;
+}

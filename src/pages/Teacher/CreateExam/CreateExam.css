@@ -1,0 +1,36 @@
+.hide {
+  display: none;
+}
+/* .date-time{
+    text-align: center;
+    background: rgb(235, 233, 233);
+    padding: 10px;
+    border-radius: 5px;
+} */
+
+textarea,
+select,
+input {
+  background-color: #dddddd;
+  border: none;
+  padding: 15px;
+  margin: 10px 10px;
+  width: 800px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+textarea,
+select,
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #b8a8c0;
+}
+
+.labelText {
+  color: #49006b;
+  margin-top: 10px;
+}

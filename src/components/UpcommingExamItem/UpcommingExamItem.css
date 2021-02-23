@@ -1,0 +1,15 @@
+.exam-item {
+  padding: 25px;
+  box-shadow: 1px 1px 10px rgb(218, 213, 213);
+  margin: 20px 0px;
+  border-radius: 14px;
+  background-color: #ffffff;
+  width: 70vw;
+}
+
+.upcomming-exam-item-date-time {
+  background-color: rgb(92, 21, 143);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}

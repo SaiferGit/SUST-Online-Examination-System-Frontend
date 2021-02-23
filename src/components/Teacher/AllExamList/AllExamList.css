@@ -1,0 +1,18 @@
+.header {
+  font-size: large;
+  border-bottom: 3px solid #cecaca;
+  padding-bottom: 10px;
+  /* border-bottom:1px solid black */
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
