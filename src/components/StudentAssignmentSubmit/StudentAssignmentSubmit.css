@@ -1,0 +1,71 @@
+.assignmentSubmission {
+}
+
+.assignmentSubmission link {
+  color: #000000;
+  padding-right: 1vw;
+}
+
+.assignmentSubmission link label {
+  font-size: 50px;
+  margin-right: 1vw;
+  cursor: pointer;
+  color: black;
+}
+
+.assignmentSubmission h3 {
+  color: #000;
+  margin-top: 1vh;
+  font-weight: 500 bold;
+  font-size: 30px;
+}
+
+.assignmentDetails {
+  margin-left: 2.75vw;
+  padding: 20px;
+  width: 68.5vw;
+  text-align: justify;
+}
+
+.assignmentDetails h5 {
+  color: #49006b;
+  margin-bottom: 20px;
+}
+
+#fileChoose {
+  width: 66.5vw;
+  padding: 50px;
+  background-color: #dfdfdf;
+}
+
+.assisgnment-attach {
+  text-align: center;
+  padding: 20px;
+  background: #757474;
+  border-radius: 10px;
+}
+
+.submit {
+  height: 50px;
+  width: 150px;
+  background-color: #49006b;
+  color: white;
+  border-radius: 10px;
+  font-size: large;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  .assignmentSubmission h3 {
+    font-size: 25px;
+  }
+
+  .assignmentDetails p{
+    width: 60vw;
+    font-size: 15px;
+  }
+
+  #fileChoose {
+    width: 60vw;
+  }
+}

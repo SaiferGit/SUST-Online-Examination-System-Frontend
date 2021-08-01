@@ -1,0 +1,13 @@
+ .exam-participant-item{
+     width: 65vw;
+     margin: 20px 10px 5px 40px;
+     border-bottom: 0.1px solid rgb(206, 202, 202);
+     display: flex;
+     justify-content: space-between;
+ }
+
+ @media (min-width: 768px) and (max-width: 1024px)  {
+    .exam-participant-item{
+        width: 55vw;
+    }
+ }

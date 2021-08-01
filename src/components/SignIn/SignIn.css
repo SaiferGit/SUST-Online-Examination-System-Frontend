@@ -1,0 +1,197 @@
+@media (min-width: 1281px) and (max-width: 1310px) {
+  .dashboard-items {
+    padding-left: 10pt;
+  }
+  .dashboard-next-exam{
+    width: 153px;
+    height: 50px;
+  }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px)  {
+  .dashboard-container .dashboard-items .dashboard-next-exam .main-button {
+    font-size: medium;
+  }
+
+  .dashboard-container .dashboard-items .dashboard-next-exam div h1{
+    background: tomato;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  
+}
+
+
+
+@media (min-width: 521px) and (max-width: 767px) {
+  
+}
+
+@media (max-device-width: 520px){
+  
+
+}.main-button {
+  background-color: #49006b;
+  color: white;
+  padding: 7px 20px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  width: 140px;
+  height: 50px;
+  font-size: 18px;
+}
+.main-button:focus {
+  border: none;
+  outline: none;
+}
+.active {
+  background-color: #49006b;
+  color: white;
+  padding: 8px 40px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+}
+.active:focus {
+  border: none;
+  outline: none;
+}
+
+.without-active {
+  background-color: rgb(235, 230, 230);
+  color: #49006b;
+  padding: 5px 40px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+}
+.without-active:focus {
+  border: none;
+  outline: none;
+}
+
+.font-color {
+  color: #49006b;
+}
+
+.signIn {
+  color: #49006b;
+  font-size: 55px;
+  font-weight: bold;
+  margin-top: -2vh;
+  
+}
+
+.inputBox {
+  border-radius: 10px;
+  margin-top: -8px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.forgotPass{
+  margin-top: 20px;
+}
+
+.formClass {
+  margin-top: -25px;
+}
+
+
+
+
+@media (min-width: 1281px) and (max-width: 1600px) {
+  .forgotPass{
+    margin-top: 20px;
+  }
+
+  .inputBox {
+    margin-top: -8px;
+    width: 400px;
+    margin-bottom: 7px;
+  }
+
+  .main-button {
+    margin-top: 15px;
+  }
+  
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px)  {
+  .inputBox{
+    margin-right: 15vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  .signinDiv{
+    margin: auto;
+    width: 50%;
+  }
+}
+
+
+
+@media (min-width: 521px) and (max-width: 767px) {
+  .signinDiv{
+    margin-left: 40vw;
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .inputBox{
+    
+    width: 80vw;
+    margin-bottom: 7px;
+  }
+  .main-button {
+    margin-top: 15px;
+  }
+  .forgotPass{
+    margin-top: 15px;
+  }
+}
+
+@media (max-device-width: 520px){
+  .inputBox {
+    margin-top: -8px;
+    width: 80vw;
+    margin-bottom: 7px;
+  }
+  
+  .main-button {
+    margin-top: 15px;
+  }
+
+  .forgotPass{
+    margin-top: 20px;
+  }
+
+  .signIn {
+    margin-left: -20pt;
+    width: 100vw;
+    color: #49006b;
+    text-align: center;
+    margin-top: -3vh;
+  }
+
+  .font-color {
+    margin-bottom: 3pt;
+  }
+
+  .active {
+    justify-content: space-around;
+  }
+
+}
+
+

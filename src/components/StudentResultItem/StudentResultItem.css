@@ -1,0 +1,45 @@
+.assignments-item {
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  height: 10vh;
+  border-radius: 15px;
+}
+
+.assignments-item h4 {
+  margin-top: 10px;
+}
+
+.assignments-item p {
+  margin-top: 15px;
+}
+
+.assignments-item h2 {
+  margin-top: 10px;
+  color: #49006b;
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  .assignments-item {
+    width: 65vw;
+    font-size: 12px;
+  }
+  .assignments-item Link{
+    text-align: center;
+  }
+  .assignments-item h4 {
+    font-size: 20px;
+  }
+  .assignments-item p {
+    margin-left: 2vw;
+    width: 70px;
+  }
+  .assignments-item h2{
+    margin-right: -2px;
+  }
+  .detailbtn {
+    margin-right: -1vw;
+    width: 80px;
+    text-align: center;
+  }
+}
+

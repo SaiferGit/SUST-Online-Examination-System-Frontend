@@ -1,0 +1,116 @@
+.dashboard-container {
+}
+.dashboard-items {
+  margin: 40px 0px;
+  width: 70vw;
+}
+.dashboard-next-exam {
+  margin-top: 8vh;
+  margin-left: 2vw;
+  height: 18vh;
+  background: linear-gradient(
+    180deg,
+    rgba(17, 38, 77, 0.82) 0%,
+    rgba(73, 0, 107, 0.82) 100%
+  );
+  width: 70vw;
+  padding: 40px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.dashboard-next-exam h6 {
+  margin-top: 10px;
+  color: white;
+}
+.dashboard-next-exam h3 {
+  color: white;
+}
+.dashboard-next-exam button {
+  margin-top: 10%;
+  width: 153px;
+  height: 50px;
+  font-size: large;
+}
+
+.main-button{
+
+}
+
+.dashboard-upcomming-exam {
+  margin-left: 2vw;
+}
+
+.dashboard-container .dashboard-items .dashboard-next-exam{
+  display: flex;
+
+}
+
+.dashboard-container .dashboard-items .dashboard-next-exam div h1{
+  margin-top: 12px;
+}
+
+@media (min-width: 1281px) and (max-width: 1310px) {
+  .dashboard-items {
+    padding-left: 10pt;
+  }
+  .dashboard-next-exam{
+    width: 153px;
+    height: 50px;
+  }
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1280px)  {
+  .dashboard-container .dashboard-items .dashboard-next-exam{
+    display: flex;
+  }
+  .dashboard-container .dashboard-items .dashboard-next-exam .main-button {
+    font-size: medium;
+  }
+
+  .dashboard-container .dashboard-items .dashboard-next-exam div h1{
+    font-size: 30px;
+    background-color: #FFFFFF00;
+  }
+  
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  .dashboard-container .dashboard-items .dashboard-next-exam{
+    width: 65vw;
+    padding-right: 30px;
+  }
+
+  .dashboard-container .dashboard-items .dashboard-next-exam h4{
+    font-size: 50px;
+  }
+
+  .dashboard-container .dashboard-items .dashboard-next-exam{
+    display: flex;
+
+  }
+
+  .dashboard-container .dashboard-items .dashboard-next-exam div h1{
+    font-size: 20px;
+    margin-top: 27px;
+  }
+  .dashboard-container .dashboard-items .dashboard-next-exam .dashboard-upcomming-exam .exam-item h4{
+    font-size: 5px;
+    background-color: #6BCCD2;
+
+  }
+
+}
+
+
+
+@media (min-width: 521px) and (max-width: 767px) {
+  
+}
+
+@media (max-device-width: 520px){
+  
+
+}

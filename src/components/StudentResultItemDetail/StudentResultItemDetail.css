@@ -1,0 +1,47 @@
+.marks-box {
+  display: flex;
+  box-shadow: 1px 1px 10px rgb(214, 210, 210);
+  padding: 20px;
+  width: 25vw;
+  border-radius: 15px;
+  margin: 20px 40px;
+  background-color: white;
+}
+.marks-box h1 {
+  font-size: 65px;
+  color: rgb(146, 63, 206);
+}
+
+.questionresult-item{
+  padding: 0px 10px;
+  box-shadow: 1px 1px 10px rgb(199, 196, 196);
+  border-radius: 15px;
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  height: 10vh;
+  border-radius: 15px;
+}
+
+.marks-box h5{
+  font-size: 22px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  .marks-box {
+  }
+
+  .marks-box h1 {
+    font-size: 32px;
+  }
+  .marks-box h5{
+    font-size: 15px;
+  }
+  #questions{
+    width: 40vw;
+    font-size: 15px;
+  }
+  .questionresult-item {
+    width: 60vw;
+  }
+
+}

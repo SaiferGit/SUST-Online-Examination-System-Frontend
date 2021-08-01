@@ -1,0 +1,49 @@
+.assignments-item {
+  padding: 15px 20px;
+  box-shadow: 1px 1px 10px rgb(199, 196, 196);
+  border-radius: 15px;
+  margin: 10px 0px;
+}
+.assignments-item button {
+  border-radius: 6px;
+  font-size: 15px;
+  margin-top: 3%;
+  marginLeft:'10px'
+}
+
+.submission-button {
+  height: 40px;
+  font-size: 18px;
+  width: 140px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  padding: 7px 20px;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  *{
+    font-size: 13px;
+  }
+
+  .assignments-item div h5 {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .assignments-item-button{
+    width: 29vw;
+    margin: 0;
+  }
+  .assignments-item-button .main-button {
+    padding: 0;
+  }
+
+  .submission-button{
+    padding: 0;
+    width: 95px;
+    margin-left: 0px;
+    font-size: 5px;
+  }
+}

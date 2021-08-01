@@ -1,0 +1,45 @@
+.dashboard-box {
+  margin-left: 1.55vw;
+  display: flex;
+}
+
+.box {
+  display: flex;
+  box-shadow: 1px 1px 10px rgb(214, 210, 210);
+  padding-left: 20px;
+  padding-right: 50px;
+  width: 22.55vw;
+  border-radius: 10px;
+  margin: 20px 10px;
+  height: 180px;
+  background-color: white;
+  margin-bottom: 4vh;
+}
+.box h1 {
+  color: indigo;
+  font-size: 60px;
+}
+
+.dashboard-box h5 {
+  margin-top: -30%;
+  font-size: 22px;
+}
+
+.dashboard-box a:hover {
+  text-decoration: none;
+  color: black;
+}
+.dashboard-box a {
+  color: black;
+}
+
+.dashboard-next-exam {
+  width: 70vw;
+  margin-top: -40px;
+  height: 180px;
+  padding: 50px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+
+}

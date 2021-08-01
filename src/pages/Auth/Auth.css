@@ -1,0 +1,143 @@
+.home {
+  background-color: #ffffff;
+  background-image: url("../../../src//images//loginBackground.svg");
+  background-repeat: no-repeat;
+  width: 100vh;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.app-title {
+  position: absolute;
+  top: 30vh;
+  left: 10vh;
+}
+.app-title h4 {
+  color: white;
+  font-size: 40px;
+}
+.app-title h1 {
+  color: white;
+  font-size: 450%;
+}
+.auth {
+  margin-left: 70vw;
+  margin-top: 20vh;
+}
+
+@media (min-width: 1281px) and (max-width: 1600px) {
+  .home {
+    width: 63vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .auth {
+    margin-left: 67vw;
+    margin-top: 20vh;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px)  {
+  .home {
+    width: 57vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .auth {
+    margin-left: 60vw;
+    margin-top: 20vh;
+
+  }
+
+  .app-title {
+    margin-left: -30px;
+    font-size: 12px;
+  }
+  .app-title h4 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .home {
+    width: 100vw;
+    height: 40vh;
+  }
+
+  .auth {
+    margin: auto;
+    width: 50%;
+    margin-left: 20vw;
+    margin-top: 43vh;
+  }
+
+  .app-title {
+    position: absolute;
+    top: 90px;
+    left: 20vw;
+    font-size: 13px;
+  }
+  .app-title h4 {
+    color: white;
+    font-size: 25px;
+  }
+
+  
+}
+
+@media (min-width: 521px) and (max-width: 767px)  {
+  .home {
+    width: 100vw;
+    height: 40vh;
+  }
+
+  .app-title {
+    position: absolute;
+    top: 90px;
+    left: 20vw;
+  }
+  .app-title h4 {
+    color: white;
+    font-size: 20px;
+  }
+  .app-title h1 {
+    color: white;
+    font-size: 50px;
+  }
+  .auth {
+    margin-left: 10vw;
+    margin-top: 40vh;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .home {
+    width: 100vh;
+    height: 35vh;
+  }
+  .app-title {
+    position: absolute;
+    top: 90px;
+    left: 40px;
+  }
+  .app-title h4 {
+    color: white;
+    font-size: 20px;
+  }
+  .app-title h1 {
+    color: white;
+    font-size: 40px;
+  }
+  .auth {
+    margin-left: 10vw;
+    margin-top: 40vh;
+    margin-bottom: 20px;
+  }
+  
+}

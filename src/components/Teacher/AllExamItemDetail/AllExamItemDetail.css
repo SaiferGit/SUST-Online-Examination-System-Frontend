@@ -1,0 +1,40 @@
+.allexam-item-detail {
+  margin-top: 50px;
+  position: relative;
+  margin-left: 0.6vw;
+  width: 70vw;
+}
+
+.allexam-time-button {
+  width: 67.7vw;
+  margin-top: 10px;
+  margin-left: 3.79vw;
+}
+
+.allexam-arrowicon {
+
+  margin-right: 10px;
+  color: black;
+  cursor: pointer;
+}
+
+.main-button {
+  width: 137px;
+  height: 45px;
+  border-radius: 10px;
+  font-size: large;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.exam-participant {
+  margin-top: 30px;
+  margin-left: 1.5vw;
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  .allexam-time-button{
+    width: 60vw;
+  }
+
+}

@@ -1,0 +1,48 @@
+.student-assignments-item {
+  padding: 0px 10px;
+  box-shadow: 1px 1px 10px rgb(199, 196, 196);
+  border-radius: 15px;
+  margin: 10px 0px;
+}
+.submitbtn{
+  color: white;
+  padding: 7px 20px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  width: 140px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #0DAA71;
+  margin-top: 5px;
+}
+@media (min-width: 768px) and (max-width: 1024px)  {
+  .assignments-item {
+    width: 65vw;
+  }
+
+  .assignments-item h5 {
+    font-size: 17px;
+  }
+  .assignments-item p {
+    margin-right: 5vw;
+    width: 70px;
+    font-size: 12px;
+  }
+
+  .submitbtn {
+    color: white;
+    padding: 7px 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    font-size: 18px;
+    margin-right: -10px;
+    width: 80px;
+    text-align: center;
+    background-color: #0DAA71;
+    margin-top: 5px;
+  /*style={{backgroundColor:'#0DAA71', marginTop:'5px'}}*/
+  }
+}

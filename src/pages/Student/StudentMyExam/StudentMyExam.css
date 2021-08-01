@@ -1,0 +1,18 @@
+.student-exam-container {
+}
+
+.exam-table {
+/*style={{margin:'10vh 10px 20px 2vw',width:'70vw'}}*/
+    margin: 10vh 10px 20px 2vw;
+    width: 65vw;
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+    .student-exam-container{
+        width: 60vw;
+    }
+    .examtable .exam-item{
+        margin-left: 10px;
+    }
+}

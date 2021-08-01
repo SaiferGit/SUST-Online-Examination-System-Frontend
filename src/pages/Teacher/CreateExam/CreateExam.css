@@ -1,0 +1,67 @@
+.hide {
+  display: none;
+}
+/* .date-time{
+    text-align: center;
+    background: rgb(235, 233, 233);
+    padding: 10px;
+    border-radius: 5px;
+} */
+
+textarea,
+select,
+input {
+  background-color: #dddddd;
+  border: none;
+  padding: 15px;
+  margin: 10px 10px;
+  width: 800px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+textarea,
+select,
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #b8a8c0;
+}
+
+.labelText {
+  color: #49006b;
+  margin-top: 10px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px)  {
+  .form-group input{
+    width: 60vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  /*form {*/
+  /*  width: 65vw;*/
+  /*  position: relative;*/
+  /*}*/
+  /*.form-group label{*/
+
+  /*}*/
+
+  /*.form-group input{*/
+  /*  width: 60vw;*/
+  /*  margin-left: 10px;*/
+  /*}*/
+
+  /*.form-group textarea{*/
+  /*  width: 64vw;*/
+  /*}*/
+
+  /*.divdatepicker{*/
+  /*  position: absolute;*/
+  /*  width: 30vw;*/
+  /*}*/
+
+}

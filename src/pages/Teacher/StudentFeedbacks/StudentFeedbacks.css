@@ -1,0 +1,15 @@
+input#searchID {
+  background-color: #d8d8d8;
+  height: 45px;
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  font-size: large;
+  background-image: url(../../../images/search4.png);
+  background-repeat: no-repeat;
+  background-position: 9px;
+  padding-left: 35px;
+}
+
+/* style={{height:'45px', width:'400px',margin:'20px 0px', marginBottom:'30px', backgroundColor:'#d8d8d8', borderRadius:'10px', fontSize:'large'}} */

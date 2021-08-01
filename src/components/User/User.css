@@ -1,0 +1,65 @@
+.user h6 {
+  margin-top: 6.2vh;
+  margin-right: -25px;
+}
+
+.user img {
+/*style={{float:'right',marginTop:'10px', marginLeft:'65vw'}}*/
+
+  width: 41px;
+  margin-left: 63vw;
+  height: 41px;
+  top: 45px;
+  margin: 5vh;
+  float: right;
+  border-radius: 20px;
+}
+
+@media (min-width: 1601px) {
+  .user {
+    margin-left: 65vw;
+  }
+  .user h6{
+    margin-right: -25px;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1600px) {
+  .user {
+    margin-left: 63vw;
+  }
+  .user h6{
+    margin-right: -25px;
+  }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px)  {
+  .user {
+    margin-left: 60vw;
+  }
+  .user h6{
+    margin-right: -25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  .user {
+    margin-left: 51vw;
+  }
+  .user h6{
+    margin-right: -25px;
+  }
+
+}
+
+
+
+@media (min-width: 521px) and (max-width: 767px) {
+  
+}
+
+@media (max-device-width: 520px){
+  
+
+}
